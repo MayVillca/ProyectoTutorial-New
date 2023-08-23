@@ -1,0 +1,49 @@
+*{
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color: blueviolet;
+}
+h2{
+    color: blueviolet;
+}
+p{
+    color:purple;
+}
+li{
+    color:palevioletred;
+    text-align: left;
+} 
+.cabecera {
+    text-align: center;
+}
+body{
+    background-color: black;
+    text-align: center;
+}
+.menu{
+    text-align: left;
+}
+.contenido {
+    text-align: justify;
+}
+.card{
+    width: 400px;
+    height: 400px;
+    margin:10px;
+    border:5px solid palevioletred;
+    color:aliceblue;   
+    text-align: center; 
+    &__image{
+        color:aliceblue;
+    }
+}
+.card__image{
+    width: 90%;
+    padding: 20px;
+    border-radius: 10%;
+}
+.card__boton:hover{
+    background-color: aquamarine;
+  }
