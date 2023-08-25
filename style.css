@@ -1,0 +1,178 @@
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align:baseline;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family:font-family 'Atma', cursive;
+    font-family: 'Indie Flower', cursive; ;
+    background-color: #334A66;
+}
+.cabecera{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5%;
+    background-color: #B9CDE6;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.barnav{
+    display: flex;
+    margin-right: 20px;
+}
+.barnav a{
+    display: block;
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+}
+.logo{
+    text-align: 10px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 100%;
+}
+.barnav a:hover{
+    background: #7a97b9;
+}
+.contentheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentheader{
+    height: 85vh !important;
+    background: url(ukulfondo.jpg) no-repeat center;
+    background-size: cover;
+}
+.inicio{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Atma', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Sacramento', cursive;
+
+}
+p{
+    margin-bottom: 35px;
+    font-size:20px;
+    color: white;
+  
+}
+h3{
+    margin-bottom: 35px;
+    font-size:20px;
+    color: white;
+}
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 2px solid #7a97b9;
+    color: aliceblue;
+    text-decoration: none;
+    background: #7a97b9;  
+    border-radius: 25px;
+    
+}
+.btn:hover{
+    background: none;
+}
+.btn_inicio{
+    display: flex;
+}
+.btn_inicio a{
+    margin: 0 10px;
+}
+.sobre_con{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    font-family:font-family 'Atma', cursive;
+    font-family: 'Indie Flower', cursive; ;
+    text-align: left;
+
+}
+p{
+    margin-bottom: 35px;
+    font-size:20px;
+    color: white;
+  
+}
+
+.contenedorsobre{
+    display: flex;
+    justify-content: center;
+}
+.concierto{
+    background-color: #B9CDE6;
+    padding: 20px;
+    margin: 0  5px;
+}
+.btn_concierto{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 2px solid #334A66;
+    color: aliceblue;
+    text-decoration: none;
+    background: #7a97b9;  
+    border-radius: 25px;
+
+}
+.marca{
+    background-color: #B9CDE6;
+    padding: 20px;
+    margin: 0 5px;
+}
+.btn_marca{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 2px solid #334A66;
+    color: aliceblue;
+    text-decoration: none;
+    background: #7a97b9;  
+    border-radius: 25px;
+}
+.canales{
+    background-color: #B9CDE6;
+    padding: 20px;
+    margin: 0 5px;
+}
+.btn_canal{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 2px solid #334A66;
+    color: aliceblue;
+    text-decoration: none;
+    background: #7a97b9;  
+    border-radius: 25px;
+
+}
