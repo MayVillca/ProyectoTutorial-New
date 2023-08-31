@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+:root{
+    --text-color: white;
+    --bg-color:#4682A9;
+    --main-color:#512B81;
+
+    --h1-font:6rem;
+    --h3-font:3rem;
+}
+body{
+    color: var(--text-color);
+    background: var(--bg-color);
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 5px;
+    background: #749BC2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(0px);
+}
+.logo{
+    font-size: 25px;
+    color: var(--text-color);
+    font-weight:100;
+    text-decoration: none; 
+}
+span{
+    color: var(--main-color);
+}
+.navbar {
+    display:flex; 
+
+}
+.navbar a{
+    color: var(--text-color);
+    font-size: 0.6em;
+    font-weight: 100;
+    margin:8px 8px;
+    transition: all.5s ease;
+    
+}
+.navbar a:hover {
+    color: var(--main-color);
+    padding-right: 3'px;
+}
+#principio{
+    padding: 30px 15% 60px;   
+}
+p{
+    font-size: 0.8em;
+}
+section{
+    display: block;
+    margin: 0 0.5rem;
+    animation: bounce; 
+    animation-duration: 3s; 
+}
+.img-inicio{
+    padding: 2%;
+    width: 40%;
+    height: 40%;
+    float: right;   
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60px;
+    padding: 2em;
+    background-color: #91C8E4 ;
+}
+.footer-content h4,h5 {
+    font-size: 18px;
+    font-size: 12px;
+}
+.contenido-def h1{
+    text-align: center;  
+}
+.contenido-def h2 p{
+    font-size: 22px;
+    text-align: justify;
+    
+}
+.contenido-def dl{
+    font-size: 18px;
+}
+#definicion {
+    padding: 0px 15% 10px;
+    font-size: 22px;
+}
+.gifdef{
+    margin-top: 60px;
+    border: #4682A9;
+    padding: 2%;
+    width: 40%;
+    height: 40%;
+    float: right;   
+}
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+}
+  
+.card .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+}
+  
+.card .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+}
+  
+.card .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+}
+  
+.card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+  
+.title-white {
+    color: white;
+}
+  
+.title-black {
+    color: black;
+}
+  
+  @media all and (max-width: 500px) {
+    .card-list {
+           flex-direction: column;
+    }
+    
+  }
+.contactanos{
+    margin: 0;
+    padding: 0;
+    background: url(ukuleleblanco.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-container{
+    background: rgba(0,0,0,0.22);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 10px rgba(0,0,0,0.25);
+    width: 300px;
+    text-align: center;
+}
+.login-container h2{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #91C8E4;
+}
+.login-container input{
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.login-container button{
+    background-color:#4682A9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-container button:hover{
+    background-color:#512B81;
+}
+@media(max-width:480px){
+    .login-container{
+        width: 80%;
+    }
+}
